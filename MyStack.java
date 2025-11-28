@@ -1,6 +1,6 @@
-public class Main {
+public class Mainpra {
     public static void main(String[] args) throws Exception {
-        Practice stack = new Practice(5);
+        MyStack stack = new MyStack(5);
 
         stack.push(10);
         stack.push(11);
@@ -12,16 +12,16 @@ public class Main {
 
     }
 }
-class Stack {
+class MyStack {
     protected int[] data;
     private static final int DEFAULT_SIZE = 10;
 
     int ptr = -1;
 
-    public Stack(){
+    public MyStack(){
         this(DEFAULT_SIZE);
     }
-    public Stack(int size) {
+    public MyStack(int size) {
         this.data = new int[size];
     }
 
