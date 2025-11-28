@@ -1,4 +1,4 @@
-public class Mainpra {
+public class Main {
     public static void main(String[] args) throws Exception {
         MyStack stack = new MyStack(5);
 
