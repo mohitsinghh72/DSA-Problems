@@ -18,10 +18,10 @@ class Stack {
 
     int ptr = -1;
 
-    public Practice(){
+    public Stack(){
         this(DEFAULT_SIZE);
     }
-    public Practice(int size) {
+    public Stack(int size) {
         this.data = new int[size];
     }
 
